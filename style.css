@@ -1,0 +1,72 @@
+
+body{
+  font-family: 'Jost', sans-serif;
+}
+
+p{
+  margin-bottom: 0%;
+}
+
+.hero-img{
+  background-image: url("https://images.unsplash.com/photo-1576181178011-b03109fcc81d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1775&q=80");
+  min-height: 60vh;
+  /* we are using background image properties */
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+
+.glassCard{
+  background: rgba(15, 15, 15, 0.354);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(15, 15, 15, 0.26);
+}
+
+.oranges{
+  /* targeting the image tags use object properties */
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.purchase-btn{
+  position: absolute;
+  bottom: -19px;
+  /* left: 76px; */
+}
+
+@media (max-width: 768px) {
+  .hero-img{
+    background-image: url("https://images.unsplash.com/photo-1514163061636-02db31852e84?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    min-height: 60vh;
+    /* we are using background image properties */
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+  }
+}
+
+
+
+
+/* Utilities */
+
+.bg-darkOrange{
+  background-color: #E88A46;
+}
+
+.bg-lightOrange{
+  background-color: #ECB68F;
+}
+
+.bg-pink{
+  background-color: #FFDAE5;
+}
+
+.text-darkOrange{
+  color: #E88A46;
+}
